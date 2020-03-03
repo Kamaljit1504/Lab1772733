@@ -1,0 +1,644 @@
+/* styles for the mobile-first strategy */
+
+
+/* styles for the body */
+body
+{
+  background: linear-gradient(green, blue);
+}
+
+/* styles for fluid image */
+img
+{
+  max-width: 100%;
+}
+
+/* styles for container id */
+#container
+{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* styles for header */
+header
+{
+  text-align: center;
+}
+
+/* styles for the nav item */
+nav
+{
+  font-family: "Monotype Corsiva", "Times New Roman", serif;
+  /* em is the default font size so 1.25em means 1.25 times the default value */
+  font-size: 1.25em;
+  font-weight: bold;
+  text-align: center;
+  margin-top: -1.5em;
+}
+
+/* style for the unorderd list inside the nav */
+nav ul
+{
+  padding: 0;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+/* add styles for list items inside the nav */
+
+nav li
+{
+  background: linear-gradient(green, blue);
+  border-radius: 2em;
+  list-style-type: none;
+  margin: 0.3em;
+  padding: 0.4em;
+}
+
+/* add styles for the anchor tag inside the list item which is inside nav */
+nav li a
+{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* add styles for the mobile class */
+
+.mobile
+{
+  display: inline;
+}
+
+/* style for the desktop class */
+
+.desktop
+{
+  display: none;
+}
+
+/* styles for the main */
+main
+{
+  font-family: "Monotype Corsiva", Arial, sans-serif;
+  font-size: 1em;
+  margin-top: 0.5em;
+  padding: 1em;
+  border-radius: 2em 0 2em 0;
+  background-color: white;
+  opacity: 0.85;
+}
+
+footer
+{
+  font-size: 0.7em;
+  text-align: center;
+  margin-top: 2em;
+  color: white;
+}
+
+/* styles for a in footer */
+footer a
+{
+  color: white;
+  text-decoration: none;
+}
+
+/* styles for the a tag in main */
+main a
+{
+  background-color: green;
+  border-radius: 1em;
+  padding: 0.5em;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+/* styles for li in main */
+/* main li
+{
+  list-style: none;
+
+} */
+
+/* styles for the tablet class */
+.tablet
+{
+  display: none;
+}
+/* styles for the equip class */
+.equip
+{
+  display: none;
+}
+
+th,td
+{
+  border: 0.1em solid black;
+  padding: 1em;
+}
+
+table
+{
+  border: 0.1em solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
+  width: 100%;
+}
+section aside a
+{
+  background-color: transparent;
+}
+
+
+/* Media query for the tablet viewport target screen only*/
+/* mininum width is 481 px */
+@media only screen and (min-width: 685px)
+{
+  /* styles specifies the horizontal display for the nav li */
+
+  nav li
+  {
+    display: inline;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 18%;
+    white-space: nowrap;
+    border-radius: 0;
+    background-color: transparent;
+  }
+
+
+
+  /* styles for the main */
+  main
+  {
+    clear: left;
+    /* margin-top: 4em; */
+    border-radius: 0;
+    overflow: auto;
+  }
+
+  /* styles for h1 */
+  h1
+  {
+    text-align: center;
+  }
+  /* styles for images in figure */
+  figure img
+  {
+    background-color: #1d1d1c;
+    display: inline;
+    height: 8em;
+    width: 28%;
+    margin: 1%;
+    padding: 1%;
+  }
+
+  /* styles for the a tag in figure */
+  figure a
+  {
+    padding: 0;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  /* styles the mobile and desktop class */
+
+  .mobile
+  {
+    display: none;
+  }
+
+  .desktop
+  {
+    display: inline;
+  }
+
+  /* styles for the equip class */
+
+  .equip
+  {
+    display: inline;
+    float: left;
+    margin-right: 1.5em;
+  }
+
+/* styles for the class items */
+
+.items
+{
+  display: block;
+  list-style-position: inside;
+}
+/* styles for the tablet class */
+
+.tablet
+{
+  display: block;
+  margin-top: -3em;
+  margin-bottom: -1em;
+}
+.a
+{
+  float: left;
+}
+.notype
+{
+  list-style:none;
+
+}
+p img
+{
+  float: left;
+}
+/* style for the section */
+section
+{
+  float: left;
+  padding-bottom: 3em;
+  width: 45%
+}
+
+/* styles for the h1 in section */
+section h1
+{
+  text-align: left;
+}
+/* styles for the a tag inside section */
+section a
+{
+  background-color: transparent;
+  color: #1d1d1c;
+  font-weight: normal;
+  padding: 0;
+  text-decoration: underline;
+}
+/* styles for li in section in main */
+ /* section li
+{
+  list-style: none;
+} */
+
+/* styles for the dt */
+dt
+{
+  font-weight: bold;
+  margin-top: 0.7em;
+}
+/* styles for the contact class */
+.contact
+{
+  background-color: transparent;
+  padding: 0;
+  color: #1d1d1c;
+  text-decoration: underline;
+}
+/* styles for the article element */
+article
+{
+background: linear-gradient(green, blue);
+  float: left;
+  margin: 0.5%;
+  padding: 0.5%;
+  text-align: center;
+  width: 31%;
+}
+/* styles for the images inside the article */
+article img
+{
+  border: solid 0.1em #1d1d1c;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* styles for p tag inside the article */
+article p
+{
+  color: black;
+  margin-top: 2%;
+  padding: 1%;
+  text-align: left;
+}
+/* styles for ul inside the article  */
+article ul
+{
+  text-align: left;
+}
+/* styles for aside element */
+aside
+{
+  float: right;
+  background-color: white;
+  border-radius: 0 5em 5em 5em;
+  box-shadow: 1em 1em 1em #4c4f4d;
+  padding: 1.5em;
+  margin: 1em;
+}
+/* styles for the table */
+table
+{
+  border: 0.1em solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+/* styles for the th and td in table */
+th,td
+{
+  border: 0.1em solid black;
+  padding: 1em;
+}
+/* styles for th only */
+th
+{
+  background-color: #1d1d1c;
+  color: white;
+}
+/* styles for caption */
+caption
+{
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+}
+
+/* Media query for desktop width size*/
+@media only screen and (min-width: 860px)
+{
+  /* styles for container div */
+  #container
+  {
+    background: linear-gradient(green, blue);
+  }
+  /* style for ul in nav */
+  nav ul
+  {
+    margin: 0;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+
+  }
+/* styles for the li in nav */
+nav li
+{
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  width: 33%;
+}
+
+/* styles for the links in the nav */
+nav li a
+{
+  display: inline-block;
+  padding: 0.7em;
+  text-shadow: 0.2em 0.1em #3d3d35;
+}
+
+/* style for the main */
+main
+{
+  background: linear-gradient(green, blue);
+}
+
+/* styles for h2 in main */
+main h2
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  color: white;
+}
+/* styles for the paragraph inside main */
+main p
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  color: white;
+}
+
+/* stles for the item class */
+.item
+{
+  margin-bottom: 6em;
+}
+/* adding pseudo clas for the links */
+nav li a:hover
+{
+  color: black;
+
+}
+
+nav li a:link
+{
+  color: white;
+}
+
+nav li a:visited
+{
+  color:#ccccff;
+}
+
+/* styles for the gradient */
+body
+{
+background: white;
+}
+
+/* style for header */
+header
+{
+  text-align: left;
+}
+
+/* styles for the nav  */
+
+nav
+{
+  float: right;
+  margin-right: 3em;
+  margin-bottom: 0;
+  width: 80%;
+  margin-top: -7em;
+}
+
+/* styles for img inside figure */
+figure img
+{
+  height: 15em;
+  opacity: 0.70;
+}
+
+/* styles removing transperencies */
+figure img:hover
+{
+  opacity: 1;
+}
+/* styles for h1 */
+h1
+{
+  color: white;
+}
+/* styles for the footer */
+
+footer
+{
+  background-color: #2a2a2a;
+  margin-top: -0.2em;
+  padding: 2em;
+}
+/* styles for section */
+section
+{
+  color: white;
+  margin-left: 1em;
+  padding-bottom: 5em;
+}
+/* styles for the a tag inside section */
+section a
+{
+  color: white;
+}
+/* styles for p in section */
+section p
+{
+  margin-left: 0;
+}
+/* styles for hedahing h2 */
+main h2
+{
+  color: white;
+}
+/* style for the contact */
+.contact
+{
+  color: white;
+}
+/* styles for the h2 in article in main */
+main article h2
+{
+  color: black;
+}
+article p
+{
+  color: black;
+}
+/* styles for the table */
+table
+{
+  background-color: white;
+  width: 85%;
+}
+/* styles for the caption */
+caption
+{
+  color: white;
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+}
